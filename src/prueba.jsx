@@ -98,7 +98,7 @@ href="https://www.patternfly.org/" linkComponentProps={{
     //         <ListItem>
     //             <LoginFooterItem href="https://www.patternfly.org/">Privacy Policy</LoginFooterItem>
     //         </ListItem>
-    //     </>
+    //     </> 
     // );
     const loginForm = <LoginForm showHelperText={showHelperText} helperText="Invalid login credentials." helperTextIcon={<ExclamationCircleIcon />} usernameLabel="Username" usernameValue={username} onChangeUsername={handleUsernameChange} isValidUsername={isValidUsername} passwordLabel="Password" passwordValue={password} onChangePassword={handlePasswordChange} isValidPassword={isValidPassword} rememberMeLabel="Keep me logged in for 30 days." isRememberMeChecked={isRememberMeChecked} onChangeRememberMe={onRememberMeClick} onLoginButtonClick={onLoginButtonClick} loginButtonLabel="Log in" />;
 
